@@ -1,0 +1,28 @@
+body {
+    background-image: url("back.webp");
+}
+.h {
+   margin: 150px 400px 150px 400px;
+align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+
+.h img {
+    border: 1px solid black;
+    transition: 1s;
+   margin-left: 60px;
+
+}
+.h img:hover{
+    filter: grayscale(50%);
+    transform: scale(1.15);
+}
+h1 {
+    margin-top: 12px;
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 65px;
+    color: #fa5768 ;
+}

@@ -1,0 +1,51 @@
+.gallery {
+    padding: 15px;
+    margin-top:20px;
+    /*   border: 4px dashed  #fc1943;*/
+}
+.galleryHidden {
+    visibility: hidden;
+}
+body {
+    background-image:url("slikiLuska/back.jpg") ;
+    /*    background-repeat: no-repeat;
+        background-size: auto;*/
+}
+.gallery{
+    margin-left: 30px;
+}
+.gallery img {
+    transition: 1s;
+    padding: 15px;
+    width: 200px;
+    background: white;
+}
+.gallery img:hover{
+    filter: grayscale(70%);
+    transform: scale(1.15);
+}
+h1{
+    font-size: 100px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    color:
+            #347d3f
+;
+    position: relative;
+    font-family: 'Dancing Script', cursive;
+
+}
+/*.button {
+    pointer-events: auto;
+    cursor: pointer;
+    background: whitesmoke;
+    border: none;
+    padding: 1.5rem 3rem;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+}*/
